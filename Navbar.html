@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background: #262626;
+        }
+
+        nav {
+            background-color: #2f948d;
+        }
+
+        nav ul {
+            padding: 10px;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            padding: 10px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            columns: #fff;
+            font-family: Audiowide;
+        }
+
+        nav ul li :hover {
+            transition: 0.9s;
+            background-color: #015d56;
+        }
+        @media screen and (max-width: 767px) {
+            nav ul{
+                height: 230px;
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        @media screen and (max-width:400px) {
+            body{
+                background-color: hotpink;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">Resume</a> </li>
+            <li> <a href="#">Work</a> </li>
+            <li> <a href="#">Profile</a> </li>
+            <li> <a href="#">Contact</a> </li>
+        </ul>
+    </nav>
+</body>
+
+</html>

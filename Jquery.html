@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>New</title>
+
+    <style>
+        .firstdiv{
+            width: 100%;
+            height: 250px;
+            background-color: aqua;
+        }
+        .firstdiv img{
+            height: 150px;
+            width: 150px;
+            border: black 3px solid;
+            margin: 100px 30px;
+            float: left;
+        }
+        .secdiv{
+            margin-left: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+   <script>
+   $(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+   </script>
+
+
+
+  <!-- <center><h1>My Resume</h1> 
+   <h5>I am B.Tech Student</h5></center>
+   <button id="show">View More</button>
+   <p>I have six Members In My Faimly</p>
+   <button id="hide">Hide</button>
+    -->
+
+     <div class="container">
+        <div class="firstdiv">
+            <img src="https://img.freepik.com/free-photo/female-student-with-books-paperworks_1258-48204.jpg?size=626&ext=jpg&ga=GA1.2.1464510935.1685001226&semt=ais" alt="">
+             <div class="secdiv">
+            <h1>Anju kushwah</h1>
+            <p>I am Computer Science Student</p>
+            </div>
+        </div>
+     </div>
+     <div class="container-fluid">
+        <h2>About Me</h2>
+        <p></p>
+     </div>
+</body>
+</html>
